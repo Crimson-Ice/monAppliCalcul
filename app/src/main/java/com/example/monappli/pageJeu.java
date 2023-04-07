@@ -64,10 +64,14 @@ public class pageJeu extends AppCompatActivity implements View.OnClickListener {
 
         myButton.setOnClickListener((v) -> {
 
-            System.out.println(result.toString());
-            System.out.println(monEntreeUser.getText().toString());
+            String userInput = monEntreeUser.getText().toString();
 
-            if (Objects.equals(result.get(), Double.valueOf(monEntreeUser.getText().toString()))) {
+            if (userInput.isEmpty()) {
+                Toast.makeText(pageJeu.this, "Veuillez entrer une réponse", Toast.LENGTH_LONG).show();
+                return;
+            }
+
+            if (Objects.equals(result.get(), Double.valueOf(userInput))) {
                 Toast.makeText(pageJeu.this, "Bien joué", Toast.LENGTH_LONG).show();
                 monScore += 1;
 
@@ -88,6 +92,7 @@ public class pageJeu extends AppCompatActivity implements View.OnClickListener {
             TextVie.setText(vies + mesVies);
             TextScore.setText(score + monScore);
         });
+
     }
 
     private double giveCalcul(TextView monText) {
