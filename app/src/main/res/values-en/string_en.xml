@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">myApp</string>
+    <string name="rouge">Red</string>
+    <string name="vert">Green</string>
+    <string name="logoMenu">Calcul Game</string>
+    <string name="boutonMain1">Play</string>
+    <string name="boutonMain2">Highscore</string>
+    <string name="textPerdu">You lost noob !!!</string>
+    <string name="boutonSaveScore">Save</string>
+    <string name="textNomBinome">Julien DURIEUX,\n Antonin DRUJON</string>
+    <string name="textPageHighscore">Highscore</string>
+    <string name="toolbarScore">monScore</string>
+    <string name="toolbarVie">mesVies</string>
+
+
+
+</resources>
