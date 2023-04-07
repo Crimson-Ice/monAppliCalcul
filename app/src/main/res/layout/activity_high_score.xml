@@ -19,6 +19,7 @@
         android:id="@+id/textPageHighscore"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_mono"
         android:text="@string/textPageHighscore"
         android:textAlignment="center"
         android:textSize="34sp"

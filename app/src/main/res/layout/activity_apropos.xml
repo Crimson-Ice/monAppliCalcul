@@ -19,10 +19,11 @@
         android:id="@+id/textNomBinome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_mono"
         android:text="@string/textNomBinome"
         android:textAlignment="center"
         android:textSize="24sp"
-        tools:layout_editor_absoluteX="-3dp"
-        tools:layout_editor_absoluteY="80dp" />
+        tools:layout_editor_absoluteX="-16dp"
+        tools:layout_editor_absoluteY="302dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -41,8 +41,11 @@ public class pageJeu extends AppCompatActivity implements View.OnClickListener {
         monEntreeUser = findViewById(R.id.editText);
         mesVies = 3;
         monScore = 0;
-        TextVie.setText("Vie : " + mesVies);
-        TextScore.setText("Score : " + monScore);
+        String vies = getString(R.string.showVie);
+        String score = getString(R.string.showScore);
+        TextVie.setText(vies + mesVies);
+        TextScore.setText(score + monScore);
+
 
         AtomicReference<Double> result = new AtomicReference<>(giveCalcul(monText));
 
@@ -81,8 +84,9 @@ public class pageJeu extends AppCompatActivity implements View.OnClickListener {
             }
             result.set(giveCalcul(monText));
             monEntreeUser.setText("");
-            TextVie.setText("Vie : " + mesVies);
-            TextScore.setText("Score : " + monScore);
+
+            TextVie.setText(vies + mesVies);
+            TextScore.setText(score + monScore);
         });
     }
 

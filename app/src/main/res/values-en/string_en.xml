@@ -9,9 +9,8 @@
     <string name="boutonSaveScore">Save</string>
     <string name="textNomBinome">Julien DURIEUX,\n Antonin DRUJON</string>
     <string name="textPageHighscore">Highscore</string>
-    <string name="toolbarScore">monScore</string>
-    <string name="toolbarVie">mesVies</string>
-
-
+    <string name="textPseudo" >Enter a nickname</string>
+    <string name="showVie">Lives left :</string>
+    <string name="showScore">Score :</string>
 
 </resources>

@@ -17,6 +17,7 @@
             android:id="@+id/boutonHighScore"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_mono"
             android:text="@string/boutonMain2"
             app:icon="@android:drawable/btn_star_big_on" />
 
@@ -24,6 +25,7 @@
             android:id="@+id/boutonJouer"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_mono"
             android:text="@string/boutonMain1"
             app:icon="@android:drawable/ic_media_play" />
     </LinearLayout>
@@ -32,6 +34,7 @@
         android:id="@+id/logoMenu"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_mono"
         android:text="@string/logoMenu"
         android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"

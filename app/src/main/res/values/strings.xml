@@ -4,12 +4,12 @@
     <string name="vert" translatable="true">Vert</string>
     <string name="logoMenu" translatable="true">Calcul Game</string>
     <string name="boutonMain1" translatable="true">Jouer</string>
-    <string name="boutonMain2" translatable="true">Highscore</string>
+    <string name="boutonMain2" translatable="true">Meilleur score</string>
     <string name="textPerdu" translatable="true">Tu as perdu gros nul !!!</string>
     <string name="boutonSaveScore" translatable="true">Enregistrer</string>
     <string name="textNomBinome" translatable="true">Julien DURIEUX,\n Antonin DRUJON</string>
-    <string name="textPseudo" translatable="false">Entrer un pseudo</string>
+    <string name="textPseudo" translatable="true">Entrer un pseudo</string>
     <string name="textPageHighscore" translatable="true">Highscore</string>
-    <string name="toolbarScore" translatable="true">monScore</string>
-    <string name="toolbarVie" translatable="true">mesVies</string>
+    <string name="showVie" translatable="true">Vies restantes :</string>
+    <string name="showScore" translatable="true">Score :</string>
 </resources>
